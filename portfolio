@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+
+
+    <!-- HOSTED -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="fonts/mdi/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+
+
+    <!-- HOSTED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modal.js"></script>
+  </head>
+  <body>
+    <div class="overflow-wrap">
+      <!-- HOME -->
+      <section id="home" class="flex height-fix">
+        <div id="pt" class="canvas"></div>
+        <div class="flex">
+          <div class="text">
+            Hello, I'm <span class="highlight">Mansi Agnihotri</span>.
+            <br />
+            I'm a full-stack web developer.
+          </div>
+
+          <div class="button page-link" dest="about">
+            <p>View my work&nbsp;
+            <i class="fa fa-arrow-down" aria-hidden="true"></i></p>
+
+          </div>
+
+          <nav class="flex">
+            <div class="link-wrap">
+              <div class="active page-link" dest="home">home</div>
+              <div class="page-link" dest="about">about</div>
+              <div class="page-link" dest="portfolio">projects</div>
+              <div class="page-link" dest="blog">education & experience</div>
+              <div class="page-link" dest="contact">contact</div>
+            </div>
+            <i class="fa fa-bars"></i>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="container flex">
+          <div class="header waypoint" data-animation="slide-in-left">
+            ABOUT
+          </div>
+
+          <div
+            class="header-bar waypoint"
+            data-animation="slide-in-left"
+            data-delay=".5s"
+          ></div>
+
+
+          <div
+            class=" waypoint"
+            data-animation="slide-in-left"
+            data-delay=".5s"
+          ><h1>WHAT INTERESTS ME ?</h1>
+        </div>
+
+          <div class="flex row label-wrap">
+            <div class="flex row-gt-sm">
+              <div class="flex bullet-wrap ">
+                <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                  <div class="hexagon">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in">
+                <br />  <div style="font-size:x-large;font-family:Times new roman;"><strong>Web Development</strong></div>
+                  <br />
+                  <div>
+                    Server-side web development
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex bullet-wrap ">
+                <div
+                  class="hex-wrap waypoint"
+                  data-animation="flip-in-x"
+                  data-delay=".2s"
+                >
+                  <div class="hexagon">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                <br />  <div style="font-size:x-large;font-family:Times new roman;"><strong>Problem Sloving</strong></div>
+                  <br />
+                  <div>Solving Data Structures, Algorithms Problems!</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex row-gt-sm">
+              <div class="flex bullet-wrap ">
+                <div
+                  class="hex-wrap waypoint"
+                  data-animation="flip-in-x"
+                  data-delay=".4s"
+                >
+                  <div class="hexagon">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                <br />  <div style="font-size:x-large;font-family:Times new roman;"><strong>Python Automation</strong></div>
+                  <br />
+                  <div>Let python do the stuff ;)</div>
+
+                </div>
+              </div>
+
+              <div class="flex bullet-wrap ">
+                <div
+                  class="hex-wrap waypoint"
+                  data-animation="flip-in-x"
+                  data-delay=".6s"
+                >
+                  <div class="hexagon">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                <br />  <div style="font-size:x-large;font-family:Times new roman;"><strong>Competitive Coding</strong></div>
+                  <br />
+                  <div>
+                    Why not compete with the talent around the world !
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-wrapper flex row-gt-sm">
+            <div
+              class="flex flex-50-gt-sm waypoint"
+              data-animation="slide-in-left"
+            >
+              <img src="img/me.jpg" class="me" />
+              <br /><br />
+              <div style="font-size:x-large;font-family:Times new roman;"><strong>Who am I?</strong></div>
+              <br />
+              <div>
+                I'm a Back-End Web Developer and Python Developer, based in India.
+                <br />
+                I love exploring new technologies and solving some of the awesome problems!!
+                <br />
+                <span class="page-link highlight" dest="contact"
+                  >Let's work together :).</span
+                >
+              </div>
+            </div>
+
+            <div
+              class="flex flex-50-gt-sm waypoint bars-wrap"
+              data-animation="slide-in-right"
+            >
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">DS & Algo</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">OOPs</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">Python</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">Django</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">Flask</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">JavaScript</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:50%">
+                  <div class="tag bold flex">React</div>
+                </div>
+                <span>50%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:65%">
+                  <div class="tag bold flex">Node.js</div>
+                </div>
+                <span>65%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:65%">
+                  <div class="tag bold flex">MongoDB</div>
+                </div>
+                <span>65%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">AWS / GC</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="flex" id="portfolio">
+        <div class="header waypoint" data-animation="slide-in-right">
+          PROJECTS
+        </div>
+        <div
+          class="header-bar waypoint"
+          data-animation="slide-in-right"
+          data-delay=".3s"
+        ></div>
+
+        <div class="filter-wrap waypoint" data-animation="fade-in">
+          <div class="flex row">
+            <div class="filter" data-filter="all">ALL</div>
+            <div class="filter" data-filter=".python">PYTHON</div>
+            <div class="filter" data-filter=".mern">MERN</div>
+          </div>
+          <div class="float-bar">
+            <div class="flex row">
+              <div class="filter" data-filter="all">ALL</div>
+              <div class="filter" data-filter=".python">PYTHON</div>
+              <div class="filter" data-filter=".mern">MERN</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="gallery" class="container flex row wrap waypoint">
+          <div class="mix python" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">E-Poller</div>
+                <span class="highlight">Python / Flask</span>
+                <p><a href=" http://epoller-app.herokuapp.com/login"><i class="fa fa-link"></i></a></p>
+                <p><a href="https://github.com/pyprogr/e-poller"><i class="fa fa-github"></i></a></p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="mix mern" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Dog Home</div>
+                <span class="highlight">MERN</span>
+                <p><a href=" https://github.com/pyprogr/street-dog-helper"><i class="fa fa-link"></i></a></p>
+                <p><a href="https://github.com/pyprogr/street-dog-helper"><i class="fa fa-github"></i></a></p>
+              </div>
+
+            </div></div>
+
+
+          <div class="mix mern" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Personal Blog</div>
+                <span class="highlight">MERN</span>
+                <p><a href=" https://github.com/pyprogr/Blog-project"><i class="fa fa-link"></i></a></p>
+                <p><a href="https://github.com/pyprogr/Blog-project"><i class="fa fa-github"></i></a></p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="mix python" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">FlashCards</div>
+                <span class="highlight">Python / Django</span>
+                <p><a href=" http://pyprogr-flashcards.herokuapp.com/"><i class="fa fa-link"></i></a></p>
+                <p><a href="https://github.com/pyprogr/django-flashcards"><i class="fa fa-github"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME -->
+      <section id="blog">
+
+
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+        					<div class="resume-inner">
+                    <div class="header waypoint" data-animation="slide-in-left">
+                      EXPERIENCE
+                    </div>
+
+                    <div
+                      class="header-bar waypoint"
+                      data-animation="slide-in-left"
+                      data-delay=".5s"
+                    ></div>
+                  </div>
+        				</div>
+        </div>
+        	<div class="row">
+
+                <div class="timeline-centered">
+
+                <article class="timeline-entry">
+
+                    <div class="timeline-entry-inner">
+
+                        <div class="timeline-icon bg-warning">
+                          <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                            <i class="entypo-camera"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h3 class="resume-title">Web Developer Intern &nbsp; <span style="opacity:.5;font-size:large">Aug 2020 - Present</span></h3>
+                            <h2>&nbsp; &nbsp; <i class="fa fa-map-marker" aria-hidden="true"><span>&nbsp; London Strategy & Consulting Groups</span></i></h2>
+                            <p>I joined London Strategy & Consulting Groups (U.K. based startup) as Web Development Intern. I am responsible for:</p>
+                              <p>  * Managing Company's website Dashboard.</p>
+                              <p>  * Managing Databases and ensuring implementation of Security Strategies.</p>
+                              <p>  * Creating Strong Backends with Node.js and Mongo DB.</p>
+                              <p>  * Developing Effcient Codes.</p>
+
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry begin">
+
+                    <div class="timeline-entry-inner">
+
+                        <div class="timeline-icon">
+                            <i class="entypo-flight"></i>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+        	</div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+
+                  <div class="resume-inner">
+                    <div class="header waypoint" data-animation="slide-in-left">
+                      MY EDUCATION
+                    </div>
+
+                    <div
+                      class="header-bar waypoint"
+                      data-animation="slide-in-left"
+                      data-delay=".5s"
+                    ></div>
+                  </div>
+                </div>
+        </div>
+          <div class="row">
+
+                <div class="timeline-centered">
+
+                <article class="timeline-entry">
+
+                    <div class="timeline-entry-inner">
+
+                        <div class="timeline-icon bg-success">
+                          <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                            <i class="entypo-feather"></i>
+                        </div>
+
+                        <div class="timeline-label">
+
+                            <h3 class="resume-title">Undergraduation &nbsp; <span style="opacity:.5;font-size:large">2017-2021</span></h3>
+<h2>&nbsp; &nbsp; <i class="fa fa-map-marker" aria-hidden="true"><span>&nbsp; University Of Lucknow</span></i></h2>
+                            <p>I am currently majoring in C.S.(Computer Science). I have taken courses like DSA, OOPs, Computer Networks, Software Project Management over the years and have better understanding of these subjects.I have also secured 4th rank in Inter College Coding Competition in second year of college.</p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry">
+
+                    <div class="timeline-entry-inner">
+
+                        <div class="timeline-icon bg-info">
+                          <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                            <i class="entypo-location"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h3 class="resume-title">Intermediate &nbsp; <span style="opacity:.5;font-size:large">2017</span></h3>
+<h2>&nbsp; &nbsp; <i class="fa fa-map-marker" aria-hidden="true"><span>&nbsp; Kendriya Vidyalaya</span></i></h2>
+                            <p>I have completed my higher secondary education with major subjects as Physics,Chemistry, Maths & Computer Science with 80.4 merit.</p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry">
+
+                    <div class="timeline-entry-inner">
+
+                        <div class="timeline-icon bg-warning">
+                          <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                            <i class="entypo-camera"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                            <h3 class="resume-title">High School &nbsp; <span style="opacity:.5;font-size:large">2015</span></h3>
+                            <h2>&nbsp; &nbsp; <i class="fa fa-map-marker" aria-hidden="true"><span>&nbsp; Kendriya Vidyalaya</span></i></h2>
+                            <p>I have completed my high school education with 10 CGPA.</p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-entry begin">
+
+                    <div class="timeline-entry-inner">
+
+                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                            <i class="entypo-flight"></i>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+<a  href="https://drive.google.com/file/d/1eE3eKiRYDQcTcC44yFCLmljB2lbqVwUV/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-default featured">View Résumé</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          height="75"
+          width="100%"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="svgcolor-light"
+        >
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+        <div class="container flex">
+          <div class="header waypoint" data-animation="slide-in-left">
+            CONTACT
+          </div>
+          <div
+            class="header-bar waypoint"
+            data-animation="slide-in-right"
+            data-delay=".25s"
+          ></div>
+          <div
+            class="highlight waypoint"
+            data-animation="slide-in-right"
+            data-delay=".5s"
+          >
+            Have a question or want to work together?
+          </div>
+          <form
+            class="waypoint"
+            data-animation="pop-in"
+            data-delay=".5s"
+            id="contact-form"
+          >
+            <input placeholder="Name" type="text" name="name" required />
+            <input
+              placeholder="Enter email"
+              type="email"
+              name="email"
+              required
+            />
+            <textarea
+              placeholder="Your Message"
+              type="text"
+              name="message"
+            ></textarea>
+            <div id="success">
+              <div>
+                Your message was sent successfully. Thanks!<span
+                  id="close"
+                  class="mdi mdi-close"
+                ></span>
+              </div>
+            </div>
+            <input class="button" type="submit" id="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </section>
+
+      <footer id="section-footer">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12 text-center">
+    					<ul class="socail-link list-inline">
+                <li><a href="mailto:mansiagnicse@gmail.com"><i class="fa fa-envelope"></i></a></li>
+    						<li><a href="https://twitter.com/ladylearnerr"><i class="fa fa-twitter"></i></a></li>
+    						<li><a href="https://www.facebook.com/yeaclassy"><i class="fa fa-facebook"></i></a></li>
+    						<li><a href="https://github.com/pyprogr"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/yea.classy/"><i class="fa fa-instagram"></i></a></li>
+    						<li><a href="https://www.linkedin.com/in/ladyycoder/"><i class="fa fa-linkedin"></i></a></li>
+    					</ul>
+    					<h4>Made with <i class="fa fa-heart" aria-hidden="true"></i> and <i class="fa fa-coffee" aria-hidden="true"></i><br></h4>
+
+
+    				</div>
+    			</div>
+    		</div>
+    	</footer>
+    </div>
+
+
+  </body>
+</html>
+
+<script src="scripts/canvas.js"></script>
