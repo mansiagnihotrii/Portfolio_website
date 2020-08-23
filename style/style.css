@@ -717,16 +717,16 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("../img/epoller.png") center center/cover;
+  background: url("../img/epoller.webp") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("../img/dog.jpeg") center center/cover;
+  background: url("../img/dog.webp") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url("../img/blog.png") center center/cover;
+  background: url("../img/blog.webp") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("../img/flashcards.png") center center/cover;
+  background: url("../img/flashcards.webp") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
