@@ -518,7 +518,7 @@ section:nth-of-type(2) .bullet-wrap {
   padding: 0 7px;
 }
 section:nth-of-type(2) .highlight {
-  color: #009ada;
+  color: #1a27d2;
 }
 section:nth-of-type(2) .up-arrow {
   height: 30px;
@@ -1703,3 +1703,4 @@ margin-bottom: 25px;
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
