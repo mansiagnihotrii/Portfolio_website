@@ -1,15 +1,3 @@
-self.addEventListener('install',event => {
-console.log('Install event!');
-});
-
-self.addEventListener('activate',event => {
-console.log('Activate event!');
-});
-
-self.addEventListener('fetch',event => {
-console.log('Fetch interrupted for: ',event.request.url);
-});
-
 
 const cacheName = 'cache-v1';
 const resourcesToPrecache = [
