@@ -958,6 +958,18 @@ footer .footnote .highlight {
     width: 100vw;
   }
 }
+@media screen and (min-width: 601px) {
+#interest {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+#interest {
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt;
