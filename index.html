@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="cache-control" content="no-store"/>
+        <meta http-equiv="cache-control" content="max-age:388888"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -48,6 +48,10 @@
         <script defer src="main.js"></script>
     </head>
     <body>
+        <?php
+        header('Cache-Control: max-age=259200');
+        ?>
+        <noscript> Enable Javascript </noscript>
         <div class="overflow-wrap">
             <!-- HOME -->
             <section id="home" class="flex height-fix">
@@ -70,7 +74,7 @@
                             <div class="active page-link" dest="home">home</div>
                             <div class="page-link" dest="about">about</div>
                             <div class="page-link" dest="portfolio">projects</div>
-                            <div class="page-link" dest="blog">education &experience</div>
+                            <div class="page-link" dest="blog">education & experience</div>
                             <div class="page-link" dest="contact">contact</div>
                         </div>
                         <i class="fa fa-bars"></i>
@@ -229,12 +233,6 @@
                                 </div>
                                 <span>65%</span>
                             </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:70%">
-                                    <div class="tag bold flex" style="color: #040334;">AWS / GC</div>
-                                </div>
-                                <span>70%</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -381,7 +379,7 @@
                     <div class="row">
                         <div class="col-md-12 ">
                             <div class="resume-inner">
-                                <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">MY EDUCATION
+                                <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">EDUCATION
                             </div>
                                 <div class="header-bar waypoint animated slide-in-left" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
                             </div>
